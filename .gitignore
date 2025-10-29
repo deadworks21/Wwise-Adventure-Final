@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+Project/.cache/
+Project/.WwiseCache/
+Project/.akd/
+Project/Backup/
+Project/Converted/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.log
+*.tmp
+~$*
