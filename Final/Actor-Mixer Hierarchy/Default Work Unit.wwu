@@ -33,7 +33,10 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<ActorMixer Name="Village" ID="{59039346-0F51-4CF8-A124-98382058CDD2}" ShortID="587113970">
+										<BlendContainer Name="Village" ID="{788719CF-60D7-463F-A47D-6381564AA176}" ShortID="225265447">
+											<PropertyList>
+												<Property Name="BlendBehavior" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
@@ -43,7 +46,105 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
+												<RandomSequenceContainer Name="Night" ID="{6F860D13-2005-4780-9B85-6035EC748454}" ShortID="333379537">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>45</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>1000</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Ambient_Village_Night_Short" ID="{FB35FE62-DF51-41EE-BF58-AB277D8AACE4}" ShortID="268477143">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{9547B675-AE8B-42AB-9E68-1BACFFDDB284}">
+																	<PropertyList>
+																		<Property Name="CrossfadeDuration" Type="Real64" Value="1384"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.340539519521246"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.340539519521251"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.692"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="42.248"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="43.634"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>BAS_amb_village_night_background_loop_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="404107528"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{9547B675-AE8B-42AB-9E68-1BACFFDDB284}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Ambient_Village_Night_Long" ID="{3F242DD0-90B8-4B92-9AB9-A8BE8A43F7E1}" ShortID="77850529">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{08FE5C82-4E3D-4393-BCD6-06742F4ED5B3}">
+																	<PropertyList>
+																		<Property Name="CrossfadeDuration" Type="Real64" Value="1384"/>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.692"/>
+																		<Property Name="LoopEnd" Type="Real64" Value="129.51768"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>BAS_amb_village_night_background_loop_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="80948844"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{08FE5C82-4E3D-4393-BCD6-06742F4ED5B3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Day" ID="{E90577C9-F960-4554-8EE7-2FA9D7016CB2}" ShortID="350309243">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>500</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
@@ -154,82 +255,93 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Night" ID="{6F860D13-2005-4780-9B85-6035EC748454}" ShortID="333379537">
+											</ChildrenList>
+											<BlendTrackList>
+												<BlendTrack Name="Background" ID="{ECB3775C-E8CC-46C8-BD51-2C894702996F}" ShortID="598599842">
+													<PropertyList>
+														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}" WorkUnitID="{12B5DADA-99BD-4F22-B30C-88E8EC605B7B}"/>
 														</Reference>
 													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Ambient_Village_Night_Short" ID="{FB35FE62-DF51-41EE-BF58-AB277D8AACE4}" ShortID="268477143">
-															<PropertyList>
-																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{9547B675-AE8B-42AB-9E68-1BACFFDDB284}">
-																	<PropertyList>
-																		<Property Name="CrossfadeDuration" Type="Real64" Value="1384"/>
-																		<Property Name="FadeInDuration" Type="Real64" Value="0.340539519521246"/>
-																		<Property Name="FadeOutDuration" Type="Real64" Value="0.340539519521251"/>
-																		<Property Name="LoopBegin" Type="Real64" Value="0.692"/>
-																		<Property Name="LoopEnd" Type="Real64" Value="42.248"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimEnd" Type="Real64" Value="43.634"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>BAS_amb_village_night_background_loop_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="404107528"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{9547B675-AE8B-42AB-9E68-1BACFFDDB284}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-														<Sound Name="Ambient_Village_Night_Long" ID="{3F242DD0-90B8-4B92-9AB9-A8BE8A43F7E1}" ShortID="77850529">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{08FE5C82-4E3D-4393-BCD6-06742F4ED5B3}">
-																	<PropertyList>
-																		<Property Name="CrossfadeDuration" Type="Real64" Value="1384"/>
-																		<Property Name="LoopBegin" Type="Real64" Value="0.692"/>
-																		<Property Name="LoopEnd" Type="Real64" Value="129.51768"/>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>BAS_amb_village_night_background_loop_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="80948844"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{08FE5C82-4E3D-4393-BCD6-06742F4ED5B3}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-											</ChildrenList>
-										</ActorMixer>
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<Reference>
+																<Local>
+																	<RTPC Name="" ID="{E075720C-0C8A-4246-B4AF-C0BAF27D0159}" ShortID="206895552">
+																		<PropertyList>
+																			<Property Name="PropertyName" Type="string" Value="Volume"/>
+																		</PropertyList>
+																		<ReferenceList>
+																			<Reference Name="ControlInput">
+																				<ObjectRef Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}" WorkUnitID="{12B5DADA-99BD-4F22-B30C-88E8EC605B7B}"/>
+																			</Reference>
+																			<Reference Name="Curve">
+																				<Custom>
+																					<Curve Name="" ID="{E6B175CF-A635-4AE8-9ED7-9097258BBDB1}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>11</XPos>
+																								<YPos>0</YPos>
+																								<Flags>0</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</RTPC>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+													<BlendTrackAssocList>
+														<BlendTrackAssoc>
+															<ItemRef Name="Night" ID="{6F860D13-2005-4780-9B85-6035EC748454}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>7.05368511450382</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="Day" ID="{E90577C9-F960-4554-8EE7-2FA9D7016CB2}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>5.70029530829715</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>18.7131410708243</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="Night" ID="{6F860D13-2005-4780-9B85-6035EC748454}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>17.188161259542</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>24</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+													</BlendTrackAssocList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
 									</ChildrenList>
 								</ActorMixer>
 							</ChildrenList>

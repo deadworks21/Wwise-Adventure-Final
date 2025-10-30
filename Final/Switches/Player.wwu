@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC1AC3B2-1DEB-4A8B-A419-04D64B431F51}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Player" ID="{FC1AC3B2-1DEB-4A8B-A419-04D64B431F51}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Player_MovementSpeed" ID="{D4E0C325-3960-43B7-B6E9-7FCEEF731ADD}">
+					<ChildrenList>
+						<Switch Name="Run" ID="{F118B23D-7211-49FD-BE16-C80E4F6FA588}"/>
+						<Switch Name="Walk" ID="{82479417-459A-4D79-8C82-50DBBF682256}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{AB816CE9-B326-4569-9F9A-D912866CC83B}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{A87091DD-F5FC-4FF5-BCAF-227B7E1E50A4}"/>
+						<Switch Name="Dagger" ID="{335705DB-262C-4259-BB9C-628079F5D61B}"/>
+						<Switch Name="Hammer" ID="{4298C6E6-EFD3-4C04-843A-E6764E32A7AC}"/>
+						<Switch Name="PickAxe" ID="{81658E3A-772F-430B-8989-C693187869AC}"/>
+						<Switch Name="Sword" ID="{D2D04E66-5091-434C-BD00-104A109011CB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Pickup_ItemType" ID="{A929F204-69F1-4E06-B0DB-454E66CEB5E3}">
+					<ChildrenList>
+						<Switch Name="Book" ID="{C266944D-0909-4B12-8DF9-C3B0DE91DC3F}"/>
+						<Switch Name="CrystalShard" ID="{E01D58B0-5738-40E2-A417-3957D388B3F8}"/>
+						<Switch Name="EvilEssence" ID="{41136596-D191-43CA-87B3-8D60C5D6E47F}"/>
+						<Switch Name="Key" ID="{38510840-0F72-4EB2-AF73-F1F1BB34B065}"/>
+						<Switch Name="Misc" ID="{D9945547-18C0-4A75-864F-83520B8576DC}"/>
+						<Switch Name="Mushroom" ID="{2F41E4EB-775F-4289-90F6-D25BB14BC734}"/>
+						<Switch Name="PineCone" ID="{DF25F8B3-97FF-46BE-997B-D61F5725E0B4}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Pickup_Type" ID="{80BCDEB8-C9B9-42C6-949C-E0096BCF4192}">
+					<ChildrenList>
+						<Switch Name="Item" ID="{54C0EA74-C588-42B8-A918-C79EFD869455}"/>
+						<Switch Name="Weapon" ID="{41E87C10-64B9-416E-98D3-30712EC1FC1B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

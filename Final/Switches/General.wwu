@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D85A009D-8755-4C9A-85FD-01212DAE92C5}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="General" ID="{D85A009D-8755-4C9A-85FD-01212DAE92C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Distance_to_Player" ID="{8AB0AF0D-74F2-4D5F-BF63-C0111D639583}">
+					<ChildrenList>
+						<Switch Name="Close" ID="{67716338-DB78-4F27-9193-CF8E7AFD9902}"/>
+						<Switch Name="Far" ID="{D2D02FED-753B-4ADE-B8E7-A8BADC3E2EDD}"/>
+						<Switch Name="Medium" ID="{3D2D6CA0-EBAC-48AC-9F1E-5611C7780981}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Surface_Type" ID="{01DB73D5-118A-4369-91D2-8ED5111D8144}">
+					<ChildrenList>
+						<Switch Name="Agent" ID="{C1DFACC0-0A51-4E0B-9010-084E759264EE}"/>
+						<Switch Name="Barrel" ID="{CF19F97F-3FEC-42EB-AAAA-53444BABF4EF}"/>
+						<Switch Name="Crate" ID="{DBCBE43F-D3DE-4FB3-8B2A-24A7999D35B4}"/>
+						<Switch Name="Crystal" ID="{4C8F46E0-4D06-42B1-9487-7C27AD8AE7CA}"/>
+						<Switch Name="Dirt" ID="{5BD87FF7-B90B-476B-B594-DAC52E8CE76F}"/>
+						<Switch Name="Enemy_EvilCrawler" ID="{D5B37598-95D0-4278-A82B-7A97209604FD}"/>
+						<Switch Name="Enemy_EvilHead" ID="{538975C4-E8B2-42A3-A470-5FCD19DA47F7}"/>
+						<Switch Name="Enemy_EvilSpitPlant" ID="{63574DB4-F36E-42A4-BA2C-FDE48DAE60EA}"/>
+						<Switch Name="Grass" ID="{22C11B10-43A5-420C-AAE3-26C990B15DC0}"/>
+						<Switch Name="Leaves" ID="{5CF81590-F5C7-4E56-B3DC-8B383633242C}"/>
+						<Switch Name="Metal" ID="{6619A08E-E9E3-49A7-93A2-37D7136F8C21}"/>
+						<Switch Name="Rubble" ID="{B95013C2-7F4F-4D20-851F-95D45CF66A01}"/>
+						<Switch Name="Sand" ID="{DAE25409-F480-49A2-A4D4-D4E1BF3ADD43}"/>
+						<Switch Name="Stone" ID="{90552230-F498-4D26-9709-8143742D6F69}"/>
+						<Switch Name="Water" ID="{BAD69CBC-B0D1-4E32-BA97-77F14D21CFFA}"/>
+						<Switch Name="Wood" ID="{CC1BF700-FE02-43C6-867B-0E54ED9113A3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="DayorNight" ID="{870E6B4B-3B37-44AA-9A91-02C0BD078D0C}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Day" ID="{0150E322-E84C-425D-8BC5-05162BE3DFA7}"/>
+						<Switch Name="Night" ID="{A090B1F5-551A-4D29-B90C-9025002344AF}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}"/>
+						<Curve Name="" ID="{71D31ECD-371E-4145-B042-C539013F3031}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>7</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>16</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

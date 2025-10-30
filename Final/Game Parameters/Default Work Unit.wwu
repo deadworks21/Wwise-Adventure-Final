@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{12B5DADA-99BD-4F22-B30C-88E8EC605B7B}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{12B5DADA-99BD-4F22-B30C-88E8EC605B7B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{12B5DADA-99BD-4F22-B30C-88E8EC605B7B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="InitialValue" Type="Real64" Value="24"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CombatLevel" ID="{79765EB0-9DEC-4320-B7A3-6BE581098FE9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.6"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="4"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
