@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{198835A1-7209-4ECA-A699-BA1FD2BD1A9D}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Misc" ID="{198835A1-7209-4ECA-A699-BA1FD2BD1A9D}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MagicZone" ID="{F00C7DD3-B5EF-4CDD-8C1F-19A746A9CC64}">
+					<ChildrenList>
+						<State Name="None" ID="{2F857184-1551-4030-9CE0-ADE3CA9348F5}"/>
+						<State Name="MZ1_OutsideHouse" ID="{430012E4-8D72-4E19-9B4A-D44367EDB1AD}"/>
+						<State Name="MZ2_InsideHouse" ID="{3B4DDD24-C610-4E36-9614-C03433414C7B}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Combo" ID="{20D0BFF8-9F77-4E37-B5E0-C53AAAC39F81}">
+					<ChildrenList>
+						<State Name="None" ID="{277FB4B8-62CF-4844-97C0-48C51AB9F7C2}"/>
+						<State Name="LeftSwing" ID="{79E6ADEB-7A88-448B-AE35-CF919CB7B282}"/>
+						<State Name="RightSwing" ID="{ABC1ADDD-60FC-4127-AEF4-2EF34010DF94}"/>
+						<State Name="TopSwing" ID="{4CC9F555-C906-49BB-9B8D-ACFAA3D726B9}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

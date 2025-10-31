@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A32BD6A8-BBD0-4D98-A9B0-2C4423D4C079}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Music" ID="{A32BD6A8-BBD0-4D98-A9B0-2C4423D4C079}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_Regions" ID="{ED34A115-5196-4C11-90C7-61554D79E30A}">
+					<ChildrenList>
+						<State Name="None" ID="{634508BC-1665-459D-A7DE-AFB862758BCE}"/>
+						<State Name="Cave" ID="{C52BDDC5-4D60-4766-B610-BEB0474AC013}"/>
+						<State Name="Desert" ID="{95C926EF-AE3A-4DC7-A02F-D2D811D91C8C}"/>
+						<State Name="Dungeon" ID="{BD1F8986-04EB-4C38-82A1-D93CF9331562}"/>
+						<State Name="Nowhere" ID="{FAFB2046-E173-4B9A-95F3-A8F17FE65730}"/>
+						<State Name="Silent" ID="{3074C518-11B8-41AB-ACDE-18BF74B102D9}"/>
+						<State Name="Village" ID="{B528C7AA-15B5-49BE-BDE8-FD0E59F3883D}"/>
+						<State Name="Woodlands" ID="{755B9EF1-58F2-4306-B742-A15814FCE320}"/>
+						<State Name="WwizardHouse" ID="{8950A7EF-B012-4AD5-A215-3523F10F6335}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

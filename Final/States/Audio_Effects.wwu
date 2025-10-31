@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DE4F883D-A6CE-4E20-823C-327DFA2BCAAD}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Audio_Effects" ID="{DE4F883D-A6CE-4E20-823C-327DFA2BCAAD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Effects_LateReverb" ID="{AD8A103C-185A-4FE9-8C4C-4E4C8418D256}">
+					<ChildrenList>
+						<State Name="None" ID="{3A900CB4-8EF5-4F6E-B6FF-F30EAE16A42D}"/>
+						<State Name="Disable" ID="{028B319F-AE84-455C-9171-7B8CC1160743}"/>
+						<State Name="Enable" ID="{0327B3C5-CF8F-47FB-9830-3F465C4CDF56}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="SpatialAudio" ID="{96F1A2E3-ED50-4DA0-AAF0-66D32DACE2C7}">
+					<ChildrenList>
+						<State Name="None" ID="{C7181909-C81C-4E64-923F-F542A99CE343}"/>
+						<State Name="Disabled" ID="{16E677A3-E7A4-47B1-A228-9A68AF23A1CA}"/>
+						<State Name="Enabled" ID="{15EE0F13-CF6D-48AC-9773-AD302E425B1B}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="VoiceAttenuation" ID="{94C0F753-4CAD-49C6-BE5B-B1C986CCF291}">
+					<ChildrenList>
+						<State Name="None" ID="{1469131A-56C8-4F5F-9CF4-B65B43CF3062}"/>
+						<State Name="On" ID="{B33EDD6B-E83A-4E37-8BBE-7FB6202ECCAF}"/>
+						<State Name="Off" ID="{8FD1C0AC-8805-4E52-989D-15FFD3432A6F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
