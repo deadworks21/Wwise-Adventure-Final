@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{639C2E40-24B1-44DD-8427-6ADC022006CE}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Music" ID="{639C2E40-24B1-44DD-8427-6ADC022006CE}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Music_EnemyTheme_Volume" ID="{9C40C64E-9104-4849-848D-0C030F20D324}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Music_WoodlandsHarp" ID="{BAB12056-DE07-4688-B6D1-1AAF59652DF6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicArcade" ID="{3275331E-AD3B-404C-A9DF-D3746170E802}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicStinger" ID="{D9254BF0-FB6E-4205-9157-E0403BC279F6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

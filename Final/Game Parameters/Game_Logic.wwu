@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1CC9E77B-A094-4C06-BC5C-95AECF731EFC}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Game_Logic" ID="{1CC9E77B-A094-4C06-BC5C-95AECF731EFC}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="CombatLevel" ID="{79765EB0-9DEC-4320-B7A3-6BE581098FE9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="10"/>
+						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.6"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="4"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="InitialValue" Type="Real64" Value="24"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Game_TimeSpeed" ID="{5D37FCAF-4A89-4FA7-A3B1-901AE312838E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Quest_Progress" ID="{6AE67FFE-42C4-428A-9C2F-267D4477DCB1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distance_to_Camera" ID="{5D7F9FB2-5F2F-496E-B81F-BAC7F8234580}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Listener_Cone" ID="{9090AE1B-8ED2-415D-980A-71B52D15A671}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Magic_ChargeIntensity" ID="{1CF76A77-DBFA-46E2-B45E-F30EB46EBC71}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Destruction_Level" ID="{23A97299-5A09-408C-96F9-A97895A50803}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

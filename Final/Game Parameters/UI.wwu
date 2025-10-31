@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C90756DC-DF7B-4EC3-B309-F51F49581853}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="UI" ID="{C90756DC-DF7B-4EC3-B309-F51F49581853}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="InMenu_LowPass" ID="{BD1AA317-7ABB-4429-AB4E-45FADDE614F1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{796E374C-E494-4DFB-BB66-F6E3B4BCA076}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MenuSlider_Music_Volume" ID="{471EC0CE-8D50-4C11-A9E2-249522D872A6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

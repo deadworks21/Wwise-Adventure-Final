@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{14505635-B71D-498D-BC4E-1B3429C96C2D}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Enemies" ID="{14505635-B71D-498D-BC4E-1B3429C96C2D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Enemy_EvilHead_MovementSpeed" ID="{3DCB95A4-D766-4492-AA13-02A731C47615}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Enemy_Music_EvilSpitPlant" ID="{4E04F7D7-FAB0-407D-ADFD-A9FD05C63410}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Enemy_Music_EvilCrawler" ID="{5A3BD9FD-97DE-4C3E-A20D-40056BAF3814}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Enemy_Music_EvilHead" ID="{10D3FBD4-0842-4918-9D1B-6FBDCF5B01F1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

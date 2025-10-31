@@ -263,7 +263,7 @@
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="LayerCrossFadeControlInput">
-															<ObjectRef Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}" WorkUnitID="{12B5DADA-99BD-4F22-B30C-88E8EC605B7B}"/>
+															<ObjectRef Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}" WorkUnitID="{1CC9E77B-A094-4C06-BC5C-95AECF731EFC}"/>
 														</Reference>
 													</ReferenceList>
 													<ObjectLists>
@@ -276,7 +276,7 @@
 																		</PropertyList>
 																		<ReferenceList>
 																			<Reference Name="ControlInput">
-																				<ObjectRef Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}" WorkUnitID="{12B5DADA-99BD-4F22-B30C-88E8EC605B7B}"/>
+																				<ObjectRef Name="Time_of_Day" ID="{965295D0-B78B-436F-86D4-E419401757AB}" WorkUnitID="{1CC9E77B-A094-4C06-BC5C-95AECF731EFC}"/>
 																			</Reference>
 																			<Reference Name="Curve">
 																				<Custom>

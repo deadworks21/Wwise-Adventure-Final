@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC4FCF57-F229-4CC6-83F7-215366434D9F}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Audio" ID="{BC4FCF57-F229-4CC6-83F7-215366434D9F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Callback_Microphone" ID="{EE480D02-9C14-4A8A-B879-C5757625C15B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="DopplerEffect" ID="{28F10E5F-2741-49A6-BC3A-BAAA5E85CB75}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="180"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MicrophoneLevel" ID="{2147F774-460C-4260-ABBF-8C47CB5B7087}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
