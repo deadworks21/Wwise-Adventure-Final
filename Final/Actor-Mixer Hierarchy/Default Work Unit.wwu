@@ -344,6 +344,276 @@
 										</BlendContainer>
 									</ChildrenList>
 								</ActorMixer>
+								<ActorMixer Name="Shield" ID="{9C0C1720-2786-474F-986B-A4B2DCDEA0E1}" ShortID="1036697989">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="Core" ID="{57859E9E-8C49-4BA0-8016-F1E8DF23E406}" ShortID="323471848">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BAS_amb_shield_core_LP_02" ID="{9FC5DA95-8FAD-4E95-BC7C-D2D5D7837BAE}" ShortID="987651092">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_amb_shield_core_LP_02" ID="{FC300A56-F3AA-41A4-8DEF-A112EA8505EB}">
+															<Language>SFX</Language>
+															<AudioFile>BAS_amb_shield_core_LP_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="20192879"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_amb_shield_core_LP_02" ID="{FC300A56-F3AA-41A4-8DEF-A112EA8505EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BAS_amb_shield_core_LP_03" ID="{D376B3D9-6F16-47CE-BCBE-E3B24547FD27}" ShortID="694829292">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_amb_shield_core_LP_03" ID="{A65C4DC2-A9EC-4326-8C71-AF709A5518C3}">
+															<Language>SFX</Language>
+															<AudioFile>BAS_amb_shield_core_LP_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="755705866"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_amb_shield_core_LP_03" ID="{A65C4DC2-A9EC-4326-8C71-AF709A5518C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BAS_amb_shield_core_LP_01" ID="{89A13721-E18C-48F5-9395-6A84D9FD67BE}" ShortID="321898360">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_amb_shield_core_LP_01" ID="{4CB37F0B-A112-463D-A60E-F0F7DF26A971}">
+															<Language>SFX</Language>
+															<AudioFile>BAS_amb_shield_core_LP_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="172076317"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_amb_shield_core_LP_01" ID="{4CB37F0B-A112-463D-A60E-F0F7DF26A971}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="Explosions" ID="{74D0F40B-4540-4876-A8FF-B01834CB4353}" ShortID="500647642">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BAS_shield_core_explosion_01" ID="{C0372CFD-539C-4550-9B2F-F7E0996F4CD5}" ShortID="966583525">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BAS_shield_core_explosion_01" ID="{DAD95268-F45C-4C69-B38C-55905CE2EBEB}">
+															<Language>SFX</Language>
+															<AudioFile>BAS_shield_core_explosion_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="736195633"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BAS_shield_core_explosion_01" ID="{DAD95268-F45C-4C69-B38C-55905CE2EBEB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="PinkShield" ID="{2D581660-1E9E-4AE5-9056-66C1C3C7C2CF}" ShortID="958114234">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<ActorMixer Name="Impact" ID="{1E9CC380-E416-4101-8967-BB11CF5BDC37}" ShortID="109944452">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="PinkShield_Impact_01" ID="{C99065EE-E9F1-4FE6-97E9-5E35EC546598}" ShortID="593994698">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BAS_CIN_PinkShield_Impact_01" ID="{CD8F6346-5555-4009-B209-CDABCD4EB05D}">
+																	<Language>SFX</Language>
+																	<AudioFile>BAS_CIN_PinkShield_Impact_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="64838709"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BAS_CIN_PinkShield_Impact_01" ID="{CD8F6346-5555-4009-B209-CDABCD4EB05D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="PinkShield_Impact_02" ID="{27767534-C6C7-472D-AE33-6F68F249360F}" ShortID="791586697">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BAS_CIN_PinkShield_Impact_02" ID="{93C04AE3-0935-4428-9AAC-A48C9AB63B8C}">
+																	<Language>SFX</Language>
+																	<AudioFile>BAS_CIN_PinkShield_Impact_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="198828253"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BAS_CIN_PinkShield_Impact_02" ID="{93C04AE3-0935-4428-9AAC-A48C9AB63B8C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BAS_CIN_PinkShield_Impact_Final" ID="{A375ABF7-647D-49C1-A12F-07E5C4D9C33B}" ShortID="1042490553">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BAS_CIN_PinkShield_Impact_Final" ID="{D44D1DAF-9F9D-439E-9F5B-B9D5B4329BE3}">
+																	<Language>SFX</Language>
+																	<AudioFile>BAS_CIN_PinkShield_Impact_Final.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="59497480"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BAS_CIN_PinkShield_Impact_Final" ID="{D44D1DAF-9F9D-439E-9F5B-B9D5B4329BE3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</ActorMixer>
+												<ActorMixer Name="CIN_Loops" ID="{6C06BDC7-0DDE-449B-A0E5-C1CE9DF6D079}" ShortID="409280574">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="BAS_CIN_PinkShield_After_Loop" ID="{15EA6751-0F0C-471C-85ED-12B1F24FB061}" ShortID="292626428">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BAS_CIN_PinkShield_After_Loop" ID="{8101722A-2A5D-4232-B7F8-C3148949C38D}">
+																	<Language>SFX</Language>
+																	<AudioFile>BAS_CIN_PinkShield_After_Loop.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="316965761"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BAS_CIN_PinkShield_After_Loop" ID="{8101722A-2A5D-4232-B7F8-C3148949C38D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BAS_CIN_PinkShield_Before_Loop" ID="{1AD827A7-D795-42F8-B77B-A18E07CCA17A}" ShortID="416186550">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A49EC1AA-4662-4F3A-8F31-3ADE2A6B4CA6}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A82339F-11F9-4159-BC34-E62C1604A52B}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BAS_CIN_PinkShield_Before_Loop" ID="{94D73E4A-50F0-4046-8A9E-3F6F91E4081F}">
+																	<Language>SFX</Language>
+																	<AudioFile>BAS_CIN_PinkShield_Before_Loop.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="65100668"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BAS_CIN_PinkShield_Before_Loop" ID="{94D73E4A-50F0-4046-8A9E-3F6F91E4081F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</ActorMixer>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
