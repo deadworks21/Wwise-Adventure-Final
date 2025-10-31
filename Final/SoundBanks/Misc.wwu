@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{87967866-BA39-4B73-BFC8-96FB465824CB}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Misc" ID="{87967866-BA39-4B73-BFC8-96FB465824CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="DLC" ID="{FEA91219-0B8D-4267-812E-E2BD913259E1}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="All_In_One" ID="{9AEBA409-863E-49BF-AA3C-F00633F96F3D}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{38F7F55C-2200-49FE-98FD-3D2FBA9D3D56}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Quest" ID="{38F7F55C-2200-49FE-98FD-3D2FBA9D3D56}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Quest_02" ID="{B2645E21-32BD-4052-81E9-CA5935D80614}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Quest_01" ID="{7D615DA7-4DD2-41A5-9D8F-05D1C5E4EBF7}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Quest_03" ID="{B953F372-E1F8-40F2-A375-C18C6E6585CF}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Quest_04" ID="{78B29E21-A34C-46C2-B334-D2FB879CEB77}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Quest_05" ID="{17470168-CD6C-45F3-9D8A-1A82732E8216}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Quest_06" ID="{FEC0D439-C8D2-488B-9AD3-6DC874783C02}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Quest_07" ID="{65AB53C2-FDBF-467B-A25D-5EEEC6917C7B}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Quest_08" ID="{58A92080-53FA-46E0-BD3C-1423AF3EBDC3}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
