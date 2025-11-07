@@ -4,10 +4,38 @@
 		<WorkUnit Name="Player" ID="{FC1AC3B2-1DEB-4A8B-A419-04D64B431F51}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchGroup Name="Player_MovementSpeed" ID="{D4E0C325-3960-43B7-B6E9-7FCEEF731ADD}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Run" ID="{F118B23D-7211-49FD-BE16-C80E4F6FA588}"/>
 						<Switch Name="Walk" ID="{82479417-459A-4D79-8C82-50DBBF682256}"/>
 					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_MovementSpeed" ID="{189847F3-A60F-45B9-8437-90C1C439C1F2}"/>
+						<Curve Name="" ID="{02571FC6-00A0-4A2E-9655-3DC271DC590F}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 				<SwitchGroup Name="Player_Weapon_Type" ID="{AB816CE9-B326-4569-9F9A-D912866CC83B}">
 					<ChildrenList>
